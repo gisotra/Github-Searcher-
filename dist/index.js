@@ -10,14 +10,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const SearchService_1 = require("./services/SearchService");
-let nome_usuario1 = "gisotra";
-let nome_usuario2 = "jonasalameda";
+let nome_usuario = "gisotra";
 const ss = new SearchService_1.SearchService();
 function process() {
     return __awaiter(this, void 0, void 0, function* () {
         // preciso criar uma função auxiliar, já que a operação de extração não é imediata
-        console.log("Buscando o usuário ", nome_usuario2);
-        const result = yield ss.getUser(nome_usuario2);
+        console.log("Buscando o usuário ", nome_usuario);
+        const result = yield ss.getUser(nome_usuario);
         console.log(result);
     });
 }

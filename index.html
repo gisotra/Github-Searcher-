@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=".dist/index.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+
+        <div class="main-content">
+            <p>Encontre o usuário que você quiser</p>
+        </div>
+       
+        <div class="search-container">
+            <input type="text"
+                autocomplete="off"
+                    placeholder=""/>
+            <label for="name">Username</label>
+        </div>
+
+        <div class="user-template-card">
+            <div class="upper-section">
+                <img src="" alt="template-user">
+                <div class="user_info">
+                    <h1>Gisotra</h1>
+                    <p class="identificator">@gisotra</p>
+                    <p class="account-date">19/09/2021</p>
+                </div>
+                <div class="bio">
+                    <p></p>
+                </div>
+            <div class="repo-section">
+                    <div>
+                        <p>Repo</p>
+                        <p>10</p>
+                    </div>
+                    <div>
+                        <p>Followers</p>
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <p>Following</p>
+                        <p>2</p>
+                    </div>
+            </div>
+            <div class="personal-section">
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+
+    </footer>
+
+    <div>
+        <div vw class="enabled">
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+    </div>  
+</body>
+</html>
